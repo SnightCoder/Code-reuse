@@ -24,7 +24,7 @@
        // if you want accurate you need to minus 1
        
        int getNumberOfWeeksInMonth = LayTuanTrongNam(new DateTime(DateTime.Now.Year, 1, DateTime.Now.Day));
-       // set month to 1 if you want to get numeber of weeks in this month
+       // set month to 1 if you want to get number of weeks in this month
 
 </pre>
 
