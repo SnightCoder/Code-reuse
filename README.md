@@ -45,5 +45,7 @@
 </pre>
 <p>Example</p>
      <pre>  String name = fixInjection(@"/ 'Hello Nam & You' \");
-     // the result is:
+     /* the result is:  
      / ''Hello Nam %26 You'' \\
+     */
+     </pre>
