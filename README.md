@@ -32,11 +32,11 @@
 <pre>
         public static String fixInjection(String s)
         {
-            //For php $_GET method
+            // for php $_GET method
             s = s.Replace("&", "%26");
             s = s.Replace("\\", "\\\\");
             
-            //For prevent injection query
+            // for prevent injection query
             s = s.Trim().Replace("'", "''");
             
             return s;
