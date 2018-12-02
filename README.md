@@ -31,6 +31,7 @@
 </pre>
 
 <h2>II. Fix injection mysql php</h2>
+<p>Function:</p>
 <pre>
         public static String fixInjection(String s)
         {
@@ -41,9 +42,8 @@
             s = s.Trim().Replace("'", "''");
             return s;
         }
-        public static String fixLink(String s)
-        {
-            s = s.Replace(" ", "%20");
-            return s;
-        }
 </pre>
+<p>Example</p>
+     <pre>  String name = fixInjection(@"/ 'Hello Nam & You' \");
+     // the result is:
+     / ''Hello Nam %26 You'' \\
