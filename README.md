@@ -2,7 +2,7 @@
 <p>Code reuse</p>
 
 <p>get number of weeks the beginning of this year to now</p>
-<code>
+<pre>
        public static int LayTuanTrongNam(DateTime time)
         {
             CultureInfo myCI = CultureInfo.CurrentCulture;
@@ -12,4 +12,4 @@
             // so tuan hien tai
             return myCal.GetWeekOfYear(time, myCWR, myFirstDOW);
         }
-  </code>
+  </pre>
