@@ -1,5 +1,4 @@
-# C-Get-number-of-weeks-in-a-year
-<p>Code reuse</p>
+# Code Reuse
 
 <p>[I.Get number of weeks the beginning of this year to now]</p>
 <p>First you need to use this</p> 
