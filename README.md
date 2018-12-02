@@ -1,7 +1,6 @@
 # C-Get-number-of-week-in-a-year
-Code reuse
+<p>Code reuse</p>
 
-Function 
 <code>
   print("hihi");
   </code>
