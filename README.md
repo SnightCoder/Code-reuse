@@ -1,6 +1,6 @@
 # Code Reuse
 
-<p>[I.Get number of weeks the beginning of this year to now]</p>
+<h1>[I.Get number of weeks the beginning of this year to now]</h1>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
 <p>Function:</p>
