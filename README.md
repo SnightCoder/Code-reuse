@@ -12,7 +12,6 @@
             Calendar myCal = myCI.Calendar;
             CalendarWeekRule myCWR = myCI.DateTimeFormat.CalendarWeekRule;
             DayOfWeek myFirstDOW = myCI.DateTimeFormat.FirstDayOfWeek;
-            // so tuan hien tai
             return myCal.GetWeekOfYear(time, myCWR, myFirstDOW);
         }
   </pre>
