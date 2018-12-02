@@ -20,6 +20,7 @@
 <pre>
        int getNumberOfWeeksInYear = LayTuanTrongNam(DateTime.Now); // example today is 2/12/2018 then the result is 49
        getNumberOfWeeksInYear--;// so if you want accurate you need to minus 1
-       int getNumberOfWeeksInMonth = LayTuanTrongNam(new DateTime(DateTime.Now.Year, 1, DateTime.Now.Day));// set month to 1 if you want to get numebr of weeks in this month
+       int getNumberOfWeeksInMonth = LayTuanTrongNam(new DateTime(DateTime.Now.Year, 1, DateTime.Now.Day));
+       // set month to 1 if you want to get numebr of weeks in this month
 
 </pre>
