@@ -1,7 +1,7 @@
 # C-Get-number-of-weeks-in-a-year
 <p>Code reuse</p>
 
-<p>[Get number of weeks the beginning of this year to now]</p>
+<p>[I.Get number of weeks the beginning of this year to now]</p>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
 <p>Function:</p>
@@ -29,9 +29,9 @@
 
 </pre>
 
-<p>[Fix injection mysql php]</p>
+<p>[II.Fix injection mysql php]</p>
 <pre>
-  public static String fixInjection(String s)
+        public static String fixInjection(String s)
         {
             s = s.Replace("&", "%26");
             s = s.Replace("\\", "\\\\");
