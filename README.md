@@ -19,5 +19,5 @@
 
 <p> How to use: </p> 
 <pre>
-       int getNumberOfWeeksInYear = LayTuanTrongNam(DateTime.Now); // example today is 2/12/2018 then the result is 48
+       int getNumberOfWeeksInYear = LayTuanTrongNam(DateTime.Now); // example today is 2/12/2018 then the result is 49
 </pre>
