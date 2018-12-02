@@ -1,7 +1,7 @@
 # C-Get-number-of-weeks-in-a-year
 <p>Code reuse</p>
 
-<p>Get number of weeks the beginning of this year to now</p>
+<p>[Get number of weeks the beginning of this year to now]</p>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
 <p>Function:</p>
