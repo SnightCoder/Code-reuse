@@ -28,3 +28,19 @@
        // set month to 1 if you want to get numebr of weeks in this month
 
 </pre>
+
+<p>[Fix injection mysql php]</p>
+<pre>
+  public static String fixInjection(String s)
+        {
+            s = s.Replace("&", "%26");
+            s = s.Replace("\\", "\\\\");
+            s = s.Trim().Replace("'", "''");
+            return s;
+        }
+        public static String fixLink(String s)
+        {
+            s = s.Replace(" ", "%20");
+            return s;
+        }
+</pre>
