@@ -2,6 +2,8 @@
 <p>Code reuse</p>
 
 <p>get number of weeks the beginning of this year to now</p>
+<p>First you need to use this</p> 
+<pre>using System.Globalization;</pre>
 <p>function:</p>
 <pre>
        public static int LayTuanTrongNam(DateTime time)
