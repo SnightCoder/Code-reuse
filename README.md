@@ -1,7 +1,7 @@
 # C-Get-number-of-weeks-in-a-year
 <p>Code reuse</p>
 
-get number of weeks the beginning of this year to now
+<p>get number of weeks the beginning of this year to now</p>
 <code>
        public static int LayTuanTrongNam(DateTime time)
         {
