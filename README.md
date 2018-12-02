@@ -35,10 +35,8 @@
             // for php $_GET method
             s = s.Replace("&", "%26");
             s = s.Replace("\\", "\\\\");
-            
             // for prevent injection query
             s = s.Trim().Replace("'", "''");
-            
             return s;
         }
         public static String fixLink(String s)
