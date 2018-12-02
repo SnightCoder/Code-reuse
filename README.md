@@ -2,6 +2,7 @@
 <p>Code reuse</p>
 
 <p>get number of weeks the beginning of this year to now</p>
+<p>function:</p>
 <pre>
        public static int LayTuanTrongNam(DateTime time)
         {
@@ -13,3 +14,8 @@
             return myCal.GetWeekOfYear(time, myCWR, myFirstDOW);
         }
   </pre>
+
+<p> How to use: </p> 
+<pre>
+       int getNumberOfWeeksInYear = LayTuanTrongNam(dt); .// example today is 2/12/2018 then the result is 48
+</pre>
