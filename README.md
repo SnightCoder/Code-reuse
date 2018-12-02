@@ -3,4 +3,5 @@ Code reuse
 
 Function 
 <code>
+  print("hihi");
   </code>
