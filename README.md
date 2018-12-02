@@ -1,10 +1,10 @@
 # C-Get-number-of-weeks-in-a-year
 <p>Code reuse</p>
 
-<p>get number of weeks the beginning of this year to now</p>
+<p>Get number of weeks the beginning of this year to now</p>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
-<p>function:</p>
+<p>Function:</p>
 <pre>
        public static int LayTuanTrongNam(DateTime time)
         {
