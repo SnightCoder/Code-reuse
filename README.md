@@ -38,7 +38,7 @@
             // for php $_GET method
             s = s.Replace("&", "%26");
             s = s.Replace("\\", "\\\\");
-            // for prevent injection query
+            // for prevent from injection query
             s = s.Trim().Replace("'", "''");
             return s;
         }
