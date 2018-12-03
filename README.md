@@ -1,4 +1,4 @@
-# Code Reuse
+# Code Reuse c#
 
 <h2>I.Get number of weeks from the beginning of this year to now</h2>
 <p>First you need to use this</p> 
