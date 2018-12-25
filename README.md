@@ -50,7 +50,7 @@
      */
      </pre>
      
-<h2><b># Code Reuse JavaScript</b></h2>
+<h1><b> Code Reuse JavaScript</b></h1>
 <p><br>
 Show html string on website:</p>
 <pre>"&lt;pre&gt;"+s.replace(/&lt;/g,"&lt;")+"&lt;pre&gt;";<pre></pre></pre>
