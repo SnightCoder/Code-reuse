@@ -49,3 +49,8 @@
      / ''Hello Nam %26 You'' \\
      */
      </pre>
+# Code Reuse JavaScript
+show html string on website:
+<pre>
+"<pre>"+s.replace(/</g,"&lt;")+"<pre>";
+</pre>
