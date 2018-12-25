@@ -53,3 +53,7 @@
 <p>
 show html string on website:</p>
 <pre>"&lt;pre&gt;"+s.replace(/&lt;/g,"&lt;")+"&lt;pre&gt;";<pre></pre></pre>
+<p>Example:</p>
+<pre>var s="&lt;button&gt;Click me&lt;/button&gt;";
+s="&lt;pre&gt;"+s.replace(/&lt;/g,"&lt;")+"&lt;pre&gt;";
+document.writeln(s);<pre></pre></pre>
