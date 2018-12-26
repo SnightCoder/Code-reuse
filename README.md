@@ -52,7 +52,7 @@
   <h2>III. Algorithm for simplifying decimal to fractions</h2>
 <p>Function:</p>   
 <pre>
-            public static String reduceFraction(double n,double d)
+            public static String SimplifyingFraction(double n,double d)
         {
             double num = n / d;
             String s = DoubleToFraction(num);
@@ -86,7 +86,7 @@
 </pre>
 </p>Example</p>
 <pre>
-String s= reduceFraction(2,8);//Numerator is 2 and Denominator is 8, => s="1/4"
+String s= SimplifyingFraction(2,8);//Numerator is 2 and Denominator is 8, => s="1/4"
 s= DoubleToFraction(0.25);//=>s="1/4"
 </pre>
 <h1><b> Code Reuse JavaScript</b></h1>
