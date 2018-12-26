@@ -86,7 +86,7 @@
 </pre>
 </p>Example</p>
 <pre>
-String s= reduceFraction(2,8);//N is 2 and D is 8, => s="1/4"
+String s= reduceFraction(2,8);//Numerator is 2 and Denominator is 8, => s="1/4"
 </pre>
 <h1><b> Code Reuse JavaScript</b></h1>
 <p><br>
