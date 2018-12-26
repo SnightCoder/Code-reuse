@@ -49,7 +49,7 @@
      / ''Hello Nam %26 You'' \\
      */
      </pre>
-  <h2>II. Fix injection mysql php</h2>
+  <h2>III. convert number to fraction</h2>
 <p>Function:</p>   
 <pre>
             public static String reduceFraction(double n,double d)
