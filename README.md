@@ -49,7 +49,45 @@
      / ''Hello Nam %26 You'' \\
      */
      </pre>
-     
+  <h2>II. Fix injection mysql php</h2>
+<p>Function:</p>   
+<pre>
+            public static String reduceFraction(double n,double d)
+        {
+            double num = n / d;
+            String s = DoubleToFraction(num);
+            return s;
+        }
+
+        public static string DoubleToFraction(double num, double epsilon = 0.0001, int maxIterations =20)
+        {
+            double[] d = new double[maxIterations + 2];
+            d[1] = 1;
+            double z = num;
+            double n = 1;
+            int t = 1;
+
+            int wholeNumberPart = (int)num;
+            double decimalNumberPart = num - Convert.ToDouble(wholeNumberPart);
+
+            while (t < maxIterations && Math.Abs(n / d[t] - num) > epsilon)
+            {
+                t++;
+                z = 1 / (z - (int)z);
+                d[t] = d[t - 1] * (int)z + d[t - 2];
+                n = (int)(decimalNumberPart * d[t] + 0.5);
+            }
+
+            return string.Format((wholeNumberPart > 0 ? wholeNumberPart.ToString() + " " : "") + "{0}/{1}",
+                                 n.ToString(),
+                                 d[t].ToString()
+                                );
+        }
+</pre>
+</p>Example</p>
+<pre>
+String s= reduceFraction(2,8);//N is 2 and D is 8, => s="1/4"
+</pre>
 <h1><b> Code Reuse JavaScript</b></h1>
 <p><br>
 Show html string on website:</p>
