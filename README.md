@@ -96,9 +96,9 @@ Show html string on website:</p>
 <p>Example:</p>
 <raw>
 var s="&lt;button&gt;Click me&lt;/button&gt;";
-  function preventXSS(s,cl){
-    s=s.replace("&","&amp");
-    s="<pre class=\""+cl+"\">"+s.replace(/</g,"&lt")+"<pre>";
+   function preventXSS(s,cl){
+    s=s.replace(&#x22;&#x26;&#x22;,&#x22;&#x26;amp&#x22;);
+    s=&#x22;&#x3C;pre class=\&#x22;&#x22;+cl+&#x22;\&#x22;&#x3E;&#x22;+s.replace(/&#x3C;/g,&#x22;&#x26;lt&#x22;)+&#x22;&#x3C;pre&#x3E;&#x22;;
     return s;
     }
  <raw></pre></pre>
