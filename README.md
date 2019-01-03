@@ -104,4 +104,5 @@ Show html string on website (prevent XSS):</p>
 <pre>
 var s="&lt;button&gt;Click me&lt;/button&gt;";
 s=preventXSS(s,"YourCssClass");
+document.write(s);
  <pre></pre></pre>
