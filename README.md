@@ -91,7 +91,7 @@ s= DoubleToFraction(0.25);//=>s="1/4"
 </pre>
 <h1><b> Code Reuse JavaScript</b></h1>
 <p><br>
-Show html string on website:</p>
+Show html string on website (prevent XSS):</p>
 <pre>
   function preventXSS(s,cl){
     s=s.replace(&#x22;&#x26;&#x22;,&#x22;&#x26;amp&#x22;);
