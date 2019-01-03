@@ -97,5 +97,4 @@ Show html string on website:</p>
 <pre>var s="&lt;button&gt;Click me&lt;/button&gt;";
     function preventXSS(s){
     s=s.replace("&","&amp");
-    return "<pre>"+s.replace(/</g,"&lt")+"<pre>";
-    }<pre></pre></pre>
+    return "<pre>"+s.replace(/</g,"&lt")+"<pre>";}<pre></pre></pre>
