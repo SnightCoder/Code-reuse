@@ -93,6 +93,7 @@ s= DoubleToFraction(0.25);//=>s="1/4"
 <p><br>
 Show html string on website (prevent XSS):</p>
 <pre>
+// 1:string,2:class in css
   function preventXSS(s,cl){
     s=s.replace(&#x22;&#x26;&#x22;,&#x22;&#x26;amp&#x22;);
     s=&#x22;&#x3C;pre class=\&#x22;&#x22;+cl+&#x22;\&#x22;&#x3E;&#x22;+s.replace(/&#x3C;/g,&#x22;&#x26;lt&#x22;)+&#x22;&#x3C;pre&#x3E;&#x22;;
@@ -102,5 +103,5 @@ Show html string on website (prevent XSS):</p>
 <p>Example:</p>
 <pre>
 var s="&lt;button&gt;Click me&lt;/button&gt;";
- 
+s=preventXSS(s,"YourCssClass");
  <pre></pre></pre>
