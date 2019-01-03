@@ -94,11 +94,11 @@ s= DoubleToFraction(0.25);//=>s="1/4"
 Show html string on website:</p>
 <pre>"&lt;pre&gt;"+s.replace(/&lt;/g,"&lt;")+"&lt;pre&gt;";<pre></pre></pre>
 <p>Example:</p>
-<pre>
+<raw>
 var s="&lt;button&gt;Click me&lt;/button&gt;";
   function preventXSS(s,cl){
     s=s.replace("&","&amp");
     s="<pre class=\""+cl+"\">"+s.replace(/</g,"&lt")+"<pre>";
     return s;
     }
- <pre></pre></pre>
+ <raw></pre></pre>
