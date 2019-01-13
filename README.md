@@ -106,3 +106,9 @@ var s="&lt;button&gt;Click me&lt;/button&gt;";
 s=preventXSS(s,"YourCssClass");
 document.write(s);
  <pre></pre></pre>
+ <h1>PHP XSS</h1>
+ 
+ <pre>
+             echo htmlspecialchars($row["vanban"], ENT_QUOTES, 'UTF-8');
+
+ </pre>
