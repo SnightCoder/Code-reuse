@@ -109,6 +109,6 @@ document.write(s);
  <h1>PHP XSS</h1>
  
  <pre>
-             echo htmlspecialchars($row["vanban"], ENT_QUOTES, 'UTF-8');
+             echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 
  </pre>
