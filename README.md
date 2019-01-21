@@ -112,7 +112,7 @@ document.write(s);
              echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 
  </pre>
- <h1>Xamarin. Geting weather temp</h1>
+ <h1>Xamarin. Getting weather temp</h1>
 <pre>
    async Task<int> GetWeatherTemp(String url)
         {   
