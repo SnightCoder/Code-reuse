@@ -112,3 +112,25 @@ document.write(s);
              echo htmlspecialchars($string, ENT_QUOTES, 'UTF-8');
 
  </pre>
+ <h1>Xamarin. Geting weather temp</h1>
+<pre>
+   async Task<int> GetWeatherTemp(String url)
+        {   
+            //GetWeatherTemp("https://api.openweathermap.org/data/2.5/weather?q=Lang%20Son&units=metric&appid=df2521d538fc3664cfeae4a6491e63c1");
+            HttpClient client = new HttpClient();
+            Task<string> getStringTask = client.GetStringAsync(url);
+            string urlContents = await getStringTask;
+            int i= urlContents.IndexOf("\"temp\"");
+            int a= urlContents.IndexOf("\"pressure\"");
+            urlContents = urlContents.Substring(i);
+            char[] c = urlContents.ToCharArray();
+            string s = "";
+            foreach (char item in c)
+            {
+                if (item == ',') break;
+                else s += item;
+            }
+            s = s.Replace("\"temp\":", "");
+            return Convert.ToInt32(s);
+        }
+</pre>
