@@ -134,3 +134,5 @@ document.write(s);
             return Convert.ToInt32(s);
         }
 </pre>
+<h1>Xamarin convert datatable from json</h1>
+<pre>DataTable dt = (DataTable)JsonConvert.DeserializeObject(json, (typeof(DataTable)));</pre>
