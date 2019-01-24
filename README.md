@@ -136,3 +136,14 @@ document.write(s);
 </pre>
 <h1>Xamarin convert datatable from json</h1>
 <pre>DataTable dt = (DataTable)JsonConvert.DeserializeObject(json, (typeof(DataTable)));</pre>
+
+<h1>Shared preferences</h1>
+<pre>
+Application.Current.Properties ["id"] = someClass.ID;
+
+if (Application.Current.Properties.ContainsKey("id"))
+{
+    var id = Application.Current.Properties ["id"] as int;
+    // do something with id
+}
+</pre>
