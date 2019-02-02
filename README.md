@@ -158,4 +158,5 @@ IEnumerator Lose()
         }
            StopCoroutine("Lose");
            StartCoroutine("Lose");
+    }
 </pre>
