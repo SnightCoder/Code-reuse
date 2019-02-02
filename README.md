@@ -154,6 +154,7 @@ IEnumerator Lose()
         while (true)
         {
             yield return new WaitForSeconds(1);
+            //code
         }
            StopCoroutine("Lose");
            StartCoroutine("Lose");
