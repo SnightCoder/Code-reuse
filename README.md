@@ -147,3 +147,14 @@ if (Application.Current.Properties.ContainsKey("id"))
     // do something with id
 }
 </pre>
+<h1> Unity timer</h1>
+<pre>
+IEnumerator Lose()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+        }
+           StopCoroutine("Lose");
+           StartCoroutine("Lose");
+</pre>
