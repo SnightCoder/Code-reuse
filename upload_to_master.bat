@@ -1,5 +1,6 @@
 @echo off
 
+color 4
 echo [Uploading...]
 git add .
 
