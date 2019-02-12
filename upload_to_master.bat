@@ -1,10 +1,10 @@
 @echo off
 
-echo "Updating..."
+echo "Uploading..."
 git add .
 
 git commit -m "Upload"
 
 git push
 
-echo "Update Complete"
+echo "Upload Complete"
