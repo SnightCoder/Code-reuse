@@ -1,6 +1,6 @@
 # Code Reuse c#
 
-<h2>I.Geting number of weeks from the beginning of this year to now</h2>
+<h2>I.Getting number of weeks from the beginning of this year to now</h2>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
 <p>Function:</p>
