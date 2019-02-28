@@ -1,6 +1,6 @@
 # Code Reuse c#
 
-<h2>I.Get number of weeks from the beginning of this year to now</h2>
+<h2>I.Geting number of weeks from the beginning of this year to now</h2>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
 <p>Function:</p>
@@ -30,7 +30,7 @@
 
 </pre>
 
-<h2>II. Fix injection mysql php</h2>
+<h2>II. Fixing injection mysql php</h2>
 <p>Function:</p>
 <pre>
         public static String fixInjection(String s)
