@@ -1,4 +1,5 @@
 # Code Reuse c# 
+***My English is not good, have sympathy for me!!!***
 <h2>I.Getting number of week from the beginning of this year to now</h2>
 <p>First you need to use this</p> 
 <pre>using System.Globalization;</pre>
