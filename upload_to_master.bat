@@ -9,3 +9,4 @@ git commit -m "Upload"
 git push
 
 echo [Upload Complete]
+pause
