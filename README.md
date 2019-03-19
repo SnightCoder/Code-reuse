@@ -160,3 +160,11 @@ IEnumerator Lose()
            StartCoroutine("Lose");
     }
 </pre>
+#php
+<pre>
+  $dt=mysql_real_escape_string($dt);//prevent injection
+        //$dt=str_replace("'","''",$dt);
+        date_default_timezone_set('Asia/Ho_Chi_Minh').//
+        $timezone = date_default_timezone_get();
+        $date = date('Y-m-d H:i:s ', time());
+        </pre>
