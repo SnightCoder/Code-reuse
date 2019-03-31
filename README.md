@@ -168,3 +168,6 @@ IEnumerator Lose()
         $timezone = date_default_timezone_get();
         $date = date('Y-m-d H:i:s ', time());
         </pre>
+        
+        
+        Opt("TrayIconHide", 1)
