@@ -172,6 +172,6 @@ IEnumerator Lose()
         
         Opt("TrayIconHide", 1)
  <h1> HTML Tab</h1>      
-Type <pre>&nbsp;</pre> `& emsp ;` to add a single space.
-Type <pre>&ensp;</pre> `& ensp ; ` to add 2 spaces.
-Type <pre>&emsp;</pre> `& emsp ; ` to add 4 spaces.
+Type <pre>&nbsp; `& emsp ;`</pre> to add a single space.
+Type <pre>&ensp; `& ensp ; `</pre> to add 2 spaces.
+Type <pre>&emsp; `& emsp ; `</pre> to add 4 spaces.
