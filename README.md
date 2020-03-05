@@ -171,3 +171,7 @@ IEnumerator Lose()
         
         
         Opt("TrayIconHide", 1)
+        
+Type &nbsp; to add a single space.
+Type &ensp; to add 2 spaces.
+Type &emsp; to add 4 spaces.
