@@ -174,4 +174,4 @@ IEnumerator Lose()
  <h1> HTML Tab</h1>      
 Type <pre>&nbsp;</pre> to add a single space.
 Type <pre>`&ensp;`</pre> to add 2 spaces.
-Type <pre>`&emsp;`</pre> to add 4 spaces.
+Type <pre>&lt; &emsp; &gt;</pre> to add 4 spaces.
