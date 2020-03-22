@@ -177,3 +177,5 @@ Type <pre>&ensp; `& ensp ; `</pre> to add 2 spaces.
 Type <pre>&emsp; `& emsp ; `</pre> to add 4 spaces.
 
 https://i.imgur.com/x4OD9J0.png
+
+https://www.google.nl/search?q=google+search+bar&hl=vi
