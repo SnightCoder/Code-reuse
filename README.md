@@ -179,3 +179,31 @@ Type <pre>&emsp; `& emsp ; `</pre> to add 4 spaces.
 https://i.imgur.com/x4OD9J0.png
 
 https://www.google.nl/search?q=google+search+bar&hl=vi
+
+# get views youtube nodejs
+<pre>
+
+const fs = require('fs');
+const request = require('request');
+const cheerio = require('cheerio');
+const url = 'https://www.youtube.com/watch?v=QAoFlBW1TYg';
+const tcode='<h3 id="VN-01"><p>249</h3>';
+
+request(url,(error,
+response,html) => {
+	if(!error && response.statusCode==200){
+		const $=cheerio.load(html);
+		const dt=$(".watch-view-count");
+		var views=dt.text().split(" ");
+		views[0]=views[0].split('.').join("");
+		var num=parseInt(views[0]);//+10;
+		console.log(dt.text()+"\n"+num);
+		fs.writeFile('index.html', html, function (err) {
+		  if (err) return console.log(err);
+ 			 console.log('Written!');
+		});
+	}
+
+});
+
+</pre>
