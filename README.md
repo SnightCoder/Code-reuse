@@ -187,7 +187,6 @@ const fs = require('fs');
 const request = require('request');
 const cheerio = require('cheerio');
 const url = 'https://www.youtube.com/watch?v=QAoFlBW1TYg';
-const tcode='<h3 id="VN-01"><p>249</h3>';
 
 request(url,(error,
 response,html) => {
