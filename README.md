@@ -206,3 +206,5 @@ response,html) => {
 });
 
 </pre>
+# set heroku timezone
+heroku config:add TZ="Asia/Vientiane"
