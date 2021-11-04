@@ -209,6 +209,6 @@ response,html) => {
 # set heroku timezone
 heroku config:add TZ="Asia/Vientiane"
 
-#diskpart
+# diskpart
 ![alt text](https://github.com/SnightCoder/Code-reuse/blob/master/diskpartfix0.png)
 ![alt text](https://github.com/SnightCoder/Code-reuse/blob/master/diskpartfix.png)
