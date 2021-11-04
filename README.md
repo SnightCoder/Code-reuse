@@ -210,5 +210,6 @@ response,html) => {
 heroku config:add TZ="Asia/Vientiane"
 
 # diskpart
+https://daynhauhoc.com/t/usb-bi-chia-lam-2-o-f-va-g/87910
 ![alt text](https://github.com/SnightCoder/Code-reuse/blob/master/diskpartfix0.png)
 ![alt text](https://github.com/SnightCoder/Code-reuse/blob/master/diskpartfix.png)
